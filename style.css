@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+   background :#1A1B21;
+   width: 320px;
+   margin:auto; 
+   
+}
+main{
+   background :#1A1B21;
+   width: 320px;
+     color: white; 
+   font-family: Inter;
+    font-style: normal;
+    margin: auto;
+    
+}
+.main--title{
+    color: white; 
+   font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+      
+}
+.main--title2{
+    color: #F3BF99;
+   font-family: Inter;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 10px;
+    text-align: center;
+    font-weight: normal;
+}
+.main--body{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 10.24px;
+line-height: 150%;    
+}
+.main--picture{
+    border-radius: 10px 10px 10px 10px;
+    width: 320px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+}
+
+.main--button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+     width: 247px;
+    height: 34px;
+       background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin:auto;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 15px;
+    
+}
+.main--buttonicon{
+    background-image:url("https://www.mcicon.com/wp-content/uploads/2021/03/Mail-09.jpg");
+    padding-left:20px;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    margin: 0px 8px;
+}
+.main--button:hover{
+   /*background-color: darkgrey;*/
+    color:blue;
+}
+
+footer{
+width: 320px;
+height: 64px;
+left: 116px;
+top: 760px;
+
+background: #161619;
+border-radius: 0px 0px 10px 10px;
+}
+
+.footer--icon{
+width: 25px;
+height: 25px;
+background: #918E9B;    
+}
+.footer--git{
+
+width: 25px;
+height: 25px;
+background: #918E9B; 
+
+position:relative;
+right:-61.25px;
+top:21px;
+}
+.footer--icon-git{
+background-image:url("https://cdn.freebiesbug.com/wp-content/uploads/2012/12/github-psd-icon-580x340.jpg"); 
+
+padding-left:15px;
+padding-right:15px;
+background-size: cover;
+position: absolute;
+width: 25px;
+height: 25px;
+background-position: center
+}
+.footer--twi{
+position:relative;
+width: 25px;
+height: 25px;
+background: #918E9B;
+right:-147.5px;
+top:-25px;
+}
+
+.footer--icon-twi{
+background-image:url("http://www.creativeloads.com/foto/vector-twitter-icon-195.jpg"); 
+
+padding-left:28px;
+background-size: cover;
+position: relative;
+background-position: center
+}
+ 
+    
+
+.footer--lin{
+ position:relative;
+ width: 25px;
+height: 25px;
+background: #918E9B;
+right:-233.75px;
+top:-69.5px;
+background-image:url("https://www.mcicon.com/wp-content/uploads/2021/03/Mail-09.jpg"); 
+   
+}
+.footer--icon-lin{
+background-image:url("https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-512.png"); 
+padding-left:23px;
+padding-right:2px;
+padding-bottom:4px;
+background-size: cover;
+
+background-position: center
+}
