@@ -1,4 +1,5 @@
-# title(){return this.options.title||this.options.name}
+My page made with React !
+Thx Scrimba for helping me learn coding !
 
 Quick start:
 
